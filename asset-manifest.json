@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/qasimraheem.github.io/static/css/main.1f8e330d.css",
+    "main.js": "/qasimraheem.github.io/static/js/main.d7fdd290.js",
+    "static/media/slider1.JPG": "/qasimraheem.github.io/static/media/slider1.d34dfb77a9bf55b9d92b.JPG",
+    "static/media/slider3.jpg": "/qasimraheem.github.io/static/media/slider3.0ac6533b18d9364c1b75.jpg",
+    "static/media/slider4.jpg": "/qasimraheem.github.io/static/media/slider4.23b56a7412c2d877a9c1.jpg",
+    "static/media/slider2.png": "/qasimraheem.github.io/static/media/slider2.b23d0ef3cd8cada76de0.png",
+    "static/media/contact_bg.jpg": "/qasimraheem.github.io/static/media/contact_bg.a286bacb2e1b83920fda.jpg",
+    "static/media/webdesignd.jpg": "/qasimraheem.github.io/static/media/webdesignd.87415c198d3af5480145.jpg",
+    "static/media/cloud.jpg": "/qasimraheem.github.io/static/media/cloud.f669d0b1ab3b96cc8fb0.jpg",
+    "static/media/Lato-Light.ttf": "/qasimraheem.github.io/static/media/Lato-Light.345fe08c61d3f15bbc3e.ttf",
+    "static/media/Lato-Regular.ttf": "/qasimraheem.github.io/static/media/Lato-Regular.cf929b5168a4fa06ce27.ttf",
+    "static/media/Lato-Black.ttf": "/qasimraheem.github.io/static/media/Lato-Black.d23f721e928ff9fb3303.ttf",
+    "static/media/qasim.png": "/qasimraheem.github.io/static/media/qasim.a57b90455c30a5eaf1ec.png",
+    "static/media/database.png": "/qasimraheem.github.io/static/media/database.6ee22771565122de2ea2.png",
+    "static/media/banner.svg": "/qasimraheem.github.io/static/media/banner.d506e4c34ccc97a747cc695a447f293d.svg",
+    "static/media/foxnib.jpg": "/qasimraheem.github.io/static/media/foxnib.1fbcf195fdc90a0d671e.jpg",
+    "static/media/expanse.png": "/qasimraheem.github.io/static/media/expanse.b43d9b2d7c7f6e70c8d7.png",
+    "static/media/eurostile.TTF": "/qasimraheem.github.io/static/media/eurostile.5c0b25e4fd3c37eb2d7d.TTF",
+    "static/media/elum.png": "/qasimraheem.github.io/static/media/elum.2e5658db29062cf93b21.png",
+    "static/media/frontend.png": "/qasimraheem.github.io/static/media/frontend.153df6437fc2bf9b0c1d.png",
+    "static/media/bcd.jpg": "/qasimraheem.github.io/static/media/bcd.36ab91feece0f588b204.jpg",
+    "static/media/tolenlab.jpeg": "/qasimraheem.github.io/static/media/tolenlab.11a15075a88210f96b3d.jpeg",
+    "static/media/avatar.svg": "/qasimraheem.github.io/static/media/avatar.463d174be8735f936bf9d1b3d414ea7d.svg",
+    "static/media/frontend.svg": "/qasimraheem.github.io/static/media/frontend.efe927ed919f540f032824e711641042.svg",
+    "static/media/designer.svg": "/qasimraheem.github.io/static/media/designer.63d67f5af19634786c5b5ee2dff6adf6.svg",
+    "index.html": "/qasimraheem.github.io/index.html",
+    "static/media/mentor.svg": "/qasimraheem.github.io/static/media/mentor.eb465991c5c814f0ba0bf222c285ecec.svg",
+    "main.1f8e330d.css.map": "/qasimraheem.github.io/static/css/main.1f8e330d.css.map",
+    "main.d7fdd290.js.map": "/qasimraheem.github.io/static/js/main.d7fdd290.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8e330d.css",
+    "static/js/main.d7fdd290.js"
+  ]
+}
