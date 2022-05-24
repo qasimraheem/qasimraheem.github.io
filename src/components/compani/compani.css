@@ -1,0 +1,27 @@
+#section4{
+    padding-top: 100px;
+}
+.title{
+    text-align: center;
+    margin: 1em;
+    font-family: "eurostile",sans-serif;
+    font-weight: 800;
+    color: #293347;
+    line-height: 1.125;
+    font-size: 1.5rem !important;
+}
+.cards_container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    flex-basis: 300px;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+.card img{
+    width: 100%;
+}

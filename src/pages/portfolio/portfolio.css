@@ -1,0 +1,173 @@
+.portfolio_section{
+    display: flex;
+    justify-content: center;
+}
+.aside_left{
+    width: 30%;
+    background-color: #8c43ff;
+    color: #ffffff;
+}
+.user_card{
+
+}
+.card_outer_container{
+    margin: 30px 50px;
+}
+.user_Image{
+    background-image: url("../../images/qasim.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+.first_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hello_text{
+    text-align: center;
+    width: 100px;
+    font-size: medium;
+    background-color: #293347;
+    margin-bottom: 20px;
+}
+.name_text{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.tiny_text{
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.card_heading{
+    background-color: #293347;
+}
+.card_heading h2{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: "eurostile", sans-serif !important;
+}
+.card_info{
+    margin: 30px 50px;
+    font-size: small;
+}
+.card_info > div{
+    margin: 10px 30px;
+}
+.card_flex{
+    display: flex;
+    justify-content: flex-start;
+    justify-self: center;
+    align-items: center;
+}
+
+.icon{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100) grayscale(100%) contrast(0) brightness(0) invert(1);
+}
+.iconblack{
+    filter: saturate(100) grayscale(100%) contrast(0) brightness(0) invert(0);
+
+}
+.contact_icon{
+    background-image: url("../../images/contact.png");
+}
+.mobile_icon{
+background-image: url("../../images/mobile.png");
+}
+.email_icon{
+background-image: url("../../images/email.png");
+}
+.location_icon{
+background-image: url("../../images/location.png");
+}
+.web_icon{
+background-image: url("../../images/web.png");
+}
+.language_icon{
+background-image: url("../../images/language.png");
+}
+.hobbies_icon{
+    background-image: url("../../images/hobbies.png");
+}
+.coding_icon{
+    background-image: url("../../images/coding.png");
+}
+.football_icon{
+background-image: url("../../images/football.png");
+
+}
+.reading_icon{
+background-image: url("../../images/reading.png");
+}
+
+.aside_right{
+    width: 70%;
+}
+.full_card{
+    border-top: 2px solid #8c43ff;
+    border-right: 1px solid #8c43ff;
+    border-radius: 12px 12px 12px 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.heading{
+    text-align: center;
+    background-color: #8c43ff;
+    border-radius: 0 0 12px 12px;
+    color: #ffffff;
+    width: 300px;
+    margin: 0 30px;
+}
+.heading > h2{
+    font-family: "eurostile", sans-serif;
+    font-weight: lighter;
+}
+.card_info_container{
+    padding: 50px 100px;
+}
+.card_info_tag{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.card_info_tag > div:first-of-type{
+    border: 1px solid #293347;
+    border-radius: 100px;
+}
+
+@media screen and (max-width:768px)
+{
+    .portfolio_section{
+        display:flex;
+        flex-direction: column;
+    }
+    .aside_left{
+        width:100%;
+    }
+    .aside_right{
+        width:100%;
+        margin-top:25px;
+    }
+}
+@media screen and (max-width:475px){
+    .heading{
+        width:250px;
+    }
+    .card_info_tag{
+        padding:0 20px;
+    }
+}

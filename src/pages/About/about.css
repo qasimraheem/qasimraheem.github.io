@@ -1,0 +1,94 @@
+.about_section{
+
+}
+.about_section_image{
+    border-color: #8c43ff;
+}
+.my_info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #293347;
+}
+.my_info{
+
+}
+
+.column3 ul{
+    list-style: none;
+}
+
+.laptop_icon{
+    background-image: url("../../images/laptop.png");
+}
+.earth_icon{
+    background-image: url("../../images/links.png");
+}
+.column_container{
+    display: flex;
+    justify-content: space-around;
+}
+.column3{
+    width: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.iconx2{
+    width: 80px;
+    height: 80px;
+}
+.icon_bg{
+   display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: fit-content;
+    vertical-align: middle;
+    margin: 50px auto;
+    /*display: flex;*/
+    align-self: center;
+    background-color: #8c43ff;
+
+}
+
+#tokenlab{
+background-image: url("../../images/tolenlab.jpeg");
+}
+#bcdapps{
+    background-image: url("../../images/bcd.jpg");
+}
+
+#elum{
+    background-image: url("../../images/elum.png");
+}
+
+.action_section{
+    display: flex;
+    vertical-align: middle;
+
+}
+.action_alert_box{
+    text-align: left;
+    padding: 200px;
+    background-color: #293347;
+    color: #ffffff;
+
+}
+.action_alert_box h1,.action_alert_box p{
+    text-align: left;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.action_card{
+    padding: 100px;
+    border-radius: 12px;
+    border: 1px solid #8c43ff;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+
+@media screen and (max-width:550px){
+    .column_container{
+        flex-direction: column;
+    }
+}

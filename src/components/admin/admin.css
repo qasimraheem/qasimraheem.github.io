@@ -1,0 +1,53 @@
+.container{
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.card_info_container{
+    padding: 50px 100px;
+}
+.form_row{
+    margin-top: 25px;
+    width: 100%;
+}
+.form_row *{
+    border: 1px solid #000000;
+    width: 100%;
+    display: block;
+    height: 45px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.user_name{
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-basis: auto;
+}
+.form_row textarea{
+    border: 1px solid #000000;
+    width: 100%;
+    display: block;
+    height: 200px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.btn{
+    border: 1px solid #8c43ff;
+    color: #8c43ff;
+    display: block;
+    margin: 100px auto;
+    width: 200px;
+    height: 45px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #8c43ff;
+}
+
+@media screen and (max-width:550px){
+    .card_info_container{
+        padding:25px;
+    }
+}

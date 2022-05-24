@@ -1,0 +1,15 @@
+#card-box{
+    margin-top: -14rem;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.box{
+    border-radius: 12px;
+    background-color: #fff;
+    /*border-radius: 6px;*/
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    color: #293347;
+    display: block;
+}

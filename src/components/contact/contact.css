@@ -1,0 +1,124 @@
+.contact_section{
+    display: flex;
+    justify-content: center;
+}
+.contact_left{
+    background-image: url("../../images/contact_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.contact_container{
+    padding: 300px 100px;
+}
+.contact_container > div{
+    display: flex;
+    justify-content: left;
+    margin: 50px;
+}
+.contact_container h2{
+    font-size: medium;
+    color: #ffffff;
+}
+.contact_container p{
+    font-size: small;
+    color: #ffffff;
+}
+.contact_right{
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.right_container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.right_container h1{
+    font-size: x-large;
+    color: #8c43ff;
+    margin: 10px;
+}
+.right_container form{
+    width: 100%;
+}
+.form_row{
+    margin-top: 25px;
+    width: 100%;
+}
+.form_row *{
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    display: block;
+    height: 45px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.user_name{
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-basis: auto;
+}
+.form_row textarea{
+    border: 1px solid #000000;
+    width: 100%;
+    display: block;
+    height: 200px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.btn{
+    border: 1px solid #8c43ff;
+    color: #8c43ff;
+    display: block;
+    margin: 100px auto;
+    width: 200px;
+    height: 45px;
+    padding: 10px 25px;
+    font-size: medium;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #8c43ff;
+}
+@media screen and (max-width:768px){
+    .right_container{
+        padding:30px; 
+     }
+     .contact_container{
+        padding:300px 30px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .contact_section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact_left, .contact_right{
+        width:100%;
+    }
+    .contact_container{
+        padding:0px;
+    }
+    .right_container{
+       padding:30px; 
+    }
+  }
+ 
+  @media screen and (max-width:475px){
+    .right_container{
+        padding:30px; 
+     }
+     .logo_container{
+         padding :0;
+     }
+     .header > div{
+         padding:0 15px;
+     }
+  }
+

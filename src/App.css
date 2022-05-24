@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "eurostile";
+  src: url("./fonts/eurostile.TTF");
+}
+@font-face {
+  font-family: "latobold";
+  src: url("./fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "lato";
+  src: url("./fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "latolight";
+  src: url("./fonts/Lato-Light.ttf");
+}
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: "lato",sans-serif;
+}
+
+body{
+  color: #293347;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
