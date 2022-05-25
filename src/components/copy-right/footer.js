@@ -12,7 +12,7 @@ function Footer (){
                     <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
                 </div>
                 <div className="column2 level-item">
-                    <a href="">Let's Do This</a>
+                    <a href="/contact">Let's Do This</a>
                 </div>
             </div>
             <div className="padding_giver"></div>

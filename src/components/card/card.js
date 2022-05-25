@@ -12,7 +12,7 @@ function Card(props){
             <p>{props.description}</p>
             <p className="mark">{props.expTitle}:</p>
             <p>{props.expItems.join(', ')}</p>
-            <p className="mark">Design Tools:</p>
+            <p className="mark">{props.description2||"Design Tools"}:</p>
             <ul>
                 {props.tools.map(tool =>{
                     return <li>{tool}</li>

@@ -1,5 +1,6 @@
 
 import './about.css';
+
 function About (){
     return(
         <main>
@@ -9,7 +10,7 @@ function About (){
                 </figure>
                 <h1 className="main_title">@Qasim Raheem Khokhar</h1>
                 <h2>I am a software engineer.</h2>
-                <a className="btn" href="/portfolio">Curriculum Vitae</a>
+                <a className="btn" href="qasimcv.pdf">Curriculum Vitae</a>
             </div>
             <hr/>
             <div className="container column_container">

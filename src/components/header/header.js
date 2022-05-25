@@ -24,7 +24,9 @@ function Header() {
         <header className="header">
             <div className="outer_container">
                 <div className="logo_container">
-                    <h1>PingDev</h1>
+                    <a href="/" style={{textDecoration:"none"}}>
+                        <h1>PingDev</h1>
+                    </a>
                 </div>
                 <nav className="nav_bar">
                     { width > 730 &&

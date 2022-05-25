@@ -4,6 +4,9 @@ import expanse from '../../images/expanse.png';
 import blockchain from '../../images/blockchainpk.jpg';
 import foxnib from '../../images/foxnib.jpg';
 import elum from '../../images/elum.png';
+import garden from '../../images/Frame.png';
+import fornax from '../../images/fornax.png';
+import ids from '../../images/ids.png';
 import './compani.css';
 
 function Compani (){
@@ -30,6 +33,15 @@ function Compani (){
                     </figure>
                     <figure className="card">
                         <img src={elum}/>
+                    </figure>
+                    <figure className="card" style={{padding:30}}>
+                        <img src={garden}/>
+                    </figure>
+                    <figure className="card">
+                        <img src={fornax}/>
+                    </figure>
+                    <figure className="card">
+                        <img src={ids}/>
                     </figure>
                 </div>
             </div>

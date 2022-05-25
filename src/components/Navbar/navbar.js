@@ -19,9 +19,9 @@ const Navbar = (props) =>{
             <li>
                 <Link to="/contact" onClick={props.closeHeader}>Contact</Link>
             </li>
-            <li>
-                <Link id="login_button" to="/admin" onClick={props.closeHeader}>Admin Login</Link>
-            </li>
+            {/*<li>*/}
+            {/*    <Link id="login_button" to="/admin" onClick={props.closeHeader}>Admin Login</Link>*/}
+            {/*</li>*/}
         </ul>
     )
 }
